@@ -41,11 +41,11 @@ public class dayone {
         }
 
         // Ask player for their guess
-        System.out.print("Guess a number between 1 and 10: ");
+        System.out.print("lets flip a coin heads(1) or tails(2): ");
         int playerGuess = scanner.nextInt();
 
         // Generate a random number (the "winning" number)
-        int winningNumber = random.nextInt(10) + 1;
+        int winningNumber = random.nextInt(2) + 1;
 
         // Check if the player's guess is correct
         if (playerGuess == winningNumber) {
